@@ -107,6 +107,38 @@ h1 {
     letter-spacing: 1px;
 }
 
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #cf6d17;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    /* will center the content */
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+/* PARAGRAPHS */
+
+.long-copy {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
 /* BUTTONS */
 
 .btn:link,
@@ -155,3 +187,4 @@ input[type=submit]:active {
     border: 1px solid #20cf17;
     color: #fff;
 }
+
