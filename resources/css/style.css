@@ -106,3 +106,52 @@ h1 {
     word-spacing: 3px;
     letter-spacing: 1px;
 }
+
+/* BUTTONS */
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #20cf17;
+    border: 1px solid #20cf17;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #20cf17;
+    color: #20cf17;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit] {
+    background-color: #20cf1789;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #20cf1789;
+    border: 1px solid #20cf1789;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #20cf17;
+    color: #fff;
+}
