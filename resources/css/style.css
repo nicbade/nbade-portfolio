@@ -35,7 +35,7 @@ section {
 /* HEADER */
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(img/acupunctureBackground.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(img/acupunctureBackground.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -202,8 +202,9 @@ input[type=submit]:active {
 
 /* ABOUT ERIN */
 
-.about-erin {
-    background-color: #f5f5f5;
+.section-testimonials {
+    background-color: #555;
+    color: #fff;
 }
 
 blockquote:before {
