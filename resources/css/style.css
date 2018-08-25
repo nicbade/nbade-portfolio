@@ -89,6 +89,25 @@ header {
     border-bottom: 2px solid #20cf17;
 }
 
+/* STICKY NAV USING JQUERY */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255,255,255, .98);
+    box-shadow: 0 2px 2px rgb(233,233,233);
+    z-index: 9999;
+}
+
+.sticky .main-nav {margin-top: 18px;}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 16px 0;
+    color: #555;
+}
+
 /* HEADINGS */
 
 h1,
