@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>McCabe Site</title>
+        <title>Home | Circuit Acupuncture</title>
         <link rel="stylesheet" href="resources/css/style.css">
         <link rel="stylesheet" href="vendors/css/grid.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,300italic" rel="stylesheet">
@@ -11,28 +11,38 @@
         <header>
             <nav>
                 <div class="row">
+                    <a class="skip-main" href="#skip">Skip to main content</a>
                     <h6 class="nav-header">Logo HERE</h6>
                     <ul class="main-nav">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Why Acupuncture?</a></li>
-                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#main">About Us</a></li>
+                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#">Research</a></li>
                         <li><a href="#">Schedule</a></li>
                     </ul>
                 </div>
             </nav>
-            <div class="main-text-box">
-                <h1>Want to be stabbed? <br>Erin can help you with that!</h1>
-                <a href="#" class="btn btn-full">Stab Me</a>
-                <a href="#" class="btn btn-ghost">Do Not Stab Me</a>
+            <div class="main-text-box" id="skip">
+                <h1>Circuit Acupuncture LLC</h1>
+                <a href="#" class="btn btn-full">Schedule an Appointment</a>
+                <!-- <a href="#" class="btn btn-ghost">Do Not Stab Me</a> -->
             </div>
         </header>
 
-        <section class="aboutUs js--aboutUs">
-            <div class="row">
-                <h2>McCabe Acupuncture</h2>
-                    <p class="long-copy">Acupuncture involves the insertion of very thin needles through your skin at strategic points on your body. A key component of traditional Chinese medicine, acupuncture is most commonly used to treat pain. Increasingly, it is being used for overall wellness, including stress management.</p>
+        <section class="aboutUs js--aboutUs" id="main">
+        <div class="row">
+            <div class="col box">
+                <h2>Circuit Acupuncture</h2>
+                    <p class="long-copy">Circuit Acupuncture LLC was founded by Erin McCabe, a Board Certified (NCCAOM) and licensed provider under the Minnesota Board of Medical Practice. The foundations began when Erin was working on an acute care Traumatic Brain Injury (TBI) rehabilitation unit and was receiving acupuncture treatments. During her graduate training, Erin spent one year as an intern at Courage Kenny Rehabilitation Institute providing acupuncture services for inpatient brain and spinal cord injuries. The theory of looking at <span id="vision"></span>our body as one large circuit resonated and so Circuit Acupuncture LLC manifested. 
+                    </p>
+
+                    <h3>Vision</h3>
+                    <p class="long-copy">To promote balance in our surroundings by using minimally invasive techniques. To empower individuals to grow and create resiliency within their lives.
+                    </p>
             </div>
-            <div class="row">
+        </div>
+            
+            <!-- <div class="row">
             <div class="col span-1-of-4 box">
                 <h3>Chemotherapy symptoms</h3>
                     <p>No hair, don't care I'm kickin cancers ass!</p>
@@ -48,22 +58,30 @@
             <div class="col span-1-of-4 box">
                 <h3>Labor pain</h3>
                 <p>A baby kicking inside of you, like kick kick kick muthafucka let me out!</p>
-            </div>
+            </div> -->
         </div>      
         </section>
 
         <section class="section-testimonials">
             <div class="row">
-                <h2>Stabbing people is what I live for!</h2>
+                <h2>Staff</h2>
             </div>
             <div class="row">
-                <div class="col span-1-of-3">
-                    <blockquote>
-                        I have been stabbing people since 2016, though I have been a witch since I was born.  
-                    </blockquote>
-                    <cite><img src="resources/css/img/erin-profile.jpg" alt="Erin McCabe">Erin McCabe</cite>
+                <div class="col span-1-of-3" id="bioPic">
+                    <img src="resources/css/img/erin-profile.jpg" alt="Erin McCabe">
+                    Erin McCabe
                 </div>
-                <div class="col span-1-of-3">
+                <div class="col span-2-of-3">
+                    <p>Erin McCabe, founder of Circuit Acupuncture LLC,  is a Licensed Acupuncturist with a background in healthcare. The early beginnings were as a nursing assistant with experience in nursing home, assisted living facilities, and memory care experience. She earned her Bachelor’s of Arts in Psychology from Metropolitan State University in 2010. Prior to starting school, Erin was a Psychology Associate on a Traumatic Brain Injury unit at Bethesda hospital. She was certified as a “Code Green” responder to adequately assess and manage an emergency situation of a combative individual.</p> 
+                    <br>
+                    <p>Erin had been receiving acupuncture for her own ailments since age twenty. She was recommended to watch the documentary 9,000 Needles and that started the journey towards pursuing a career in acupuncture. This complementary alternative therapy is a great way to help one’s body along the natural healing process.</p>
+                    <br>
+                    <p>Erin attended Northwestern Health Sciences University. While in school, Erin held internships at the University Health Services Clinic, Bloomington Natural Care Center, Woodwinds Hospital, and Courage Kenny Rehabilitation Institute. Since graduating, Erin has accomplished three board exams and is recognized as a Licensed Acupuncturist under the Minnesota Board of Medical Practice.</p>
+                    <span id="services"></span>
+
+                    
+                </div>
+                <!-- <div class="col span-1-of-3">
                     <blockquote>
                         Erin stabbed me without my knowledge.  I kinda liked it.
                     </blockquote>
@@ -74,8 +92,26 @@
                         I don't believe in witchcraft, but I do believe in Erin. I would trust her to put sharp objects into my body.
                     </blockquote>
                     <cite><img src="resources/css/img/krista.jpg" alt="Jerk Eisenbeis">Christ Kemmet</cite>
-                </div>
+                </div> -->
             </div>
+        </section>
+
+        <section class="services">
+                <div class="row">
+                        <div class="col box">
+                            <h2>Description of Services</h2>
+                            <h3 class="subcat">Acupuncture</h3>
+                                <p class="long-copy">Acupuncture is the technique of inserting extremely thin needles painlessly into the skin at various depths along specific points on the body’s meridian system using single use sterile needles. An acupuncture session takes approximately an hour, starting with an intake interview by the acupuncturist. The first visit will take longer, as the acupuncturist needs to gather symptoms information and ensure the client understands the procedure.</p>
+                                <br>
+                                <p class="long-copy">In classic texts, Acupuncture dates back to 2,000 years ago in China. Back then, as there were no iron casting available at that time, needles were “made of stone.” Today, acupuncture is widely recognized by allopathic and alternative practitioners around the world as an effective complementary healing practice. The efficacy of acupuncture has been well studied and documented. (See research links.)</p>
+                                <br>     
+                                <p class="long-copy">Acupuncture can treat a variety of conditions. Overall, acupuncture is utilized to balance energy, ease pain, and help heal disease. Acupuncture is one of the fundamental techniques of traditional Chinese medicine. Acupuncture rebalances the energy flow, releases congested energy, and restores the body to its natural state of harmony.  
+                                </p>
+            
+                                <h3 class="subcat">Cupping</h3>
+                                <p class="long-copy">Cupping is a therapy in which a “cup” is attached to the skin surface to cause local congestion through the negative pressure created by introducing head in the form of an ignited material. In this type of cupping, commonly referred to as “fire cupping,” the glass cup is transparent to control the treatment effectively. The cupping method has the function of warming and promoting the free flow of energy. This can be great for athletes, general fatigue symptoms, and pain syndromes.
+                                </p>
+                        </div>
         </section>
 
         <footer>
@@ -89,14 +125,13 @@
                 </div>
                 <div class="col span-1-of-2">
                     <ul class="social-links">
-                        <li><a href=""><ion-icon name="logo-facebook" class="facebook"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="logo-twitter" class="twitter"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="logo-googleplus" class="googleplus"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="logo-instagram" class="instagram"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon aria-hidden="true" name="logo-facebook" class="facebook"><span class="sr-only">Facebook</span></ion-icon></a></li>
+                        <li><a href="#"><ion-icon aria-hidden="true" name="logo-instagram" class="instagram"></ion-icon><span class="sr-only">Instagram</span></a></li>
                     </ul>
                 </div>
                 <div class="row">
-                    <p>Copyright &copy; 2018 nicbade.com   All rights reserved.</p>
+                    <p>Copyright &copy; 2018 nicbade.com</p>   
+                    <p>All rights reserved.</p>
                 </div>
             </div>
         </footer>

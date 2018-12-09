@@ -16,6 +16,46 @@ body {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+*:focus {
+    outline: 2px solid #20cf17; 
+}
+
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+a.skip-main:focus, a.skip-main:active {
+    color: #fff;
+    background-color:#000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow:auto;
+    margin: 10px 35%;
+    padding:5px;
+    border-radius: 15px;
+    border:4px solid yellow;
+    text-align:center;
+    font-size:1.2em;
+    z-index:999;
+}
 
 /* REUSABLE COMPONENTS  */
 
@@ -126,7 +166,8 @@ h1 {
     letter-spacing: 1px;
 }
 
-h2 {
+h2,
+h3 {
     font-size: 180%;
     word-spacing: 2px;
     text-align: center;
@@ -134,7 +175,8 @@ h2 {
     letter-spacing: 1px;
 }
 
-h2:after {
+h2:after,
+h3:after {
     display: block;
     height: 2px;
     background-color: #20cf17;
@@ -144,11 +186,12 @@ h2:after {
     margin-top: 30px;
 }
 
-/* Line after the heading */
-
-h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
+.subcat {
+    font-size: 120%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px; 
 }
 
 /* PARAGRAPHS */
@@ -243,14 +286,14 @@ blockquote {
     margin-top: 40px;
 }
 
-cite {
+#bioPic {
     font-size: 90%;
-    margin-top: 25px;
+    margin-top: 125px;
     display: block;
 }
 
-cite img {
-    height: 45px;
+#bioPic img {
+    height: 225px;
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
