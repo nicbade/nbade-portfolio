@@ -176,7 +176,8 @@ h3 {
 }
 
 h2:after,
-h3:after {
+h3:after,
+#cupping:after {
     display: block;
     height: 2px;
     background-color: #20cf17;
