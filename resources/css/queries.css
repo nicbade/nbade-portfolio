@@ -42,7 +42,10 @@
     .row,
     .box { padding: 0 4%; }
 
-    .col { width: 100%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
 
     #bioPic img { height: 140px; }
     .main-nav { display: none; }
@@ -76,9 +79,43 @@
     .subcat { margin-bottom: 10px; }
 
     .aboutUs .long-copy { margin-bottom: 10px; }
+
+    .sticky { display: none; }
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+    #bioPic img { 
+        height: 140px; 
+        margin-top: 0;
+        margin-left: 29%;
+        margin-bottom: 5px;
+    }
+
+    cite { margin-left: 35%; }
+
+    #bio-text { margin-top: 5px; }
+
+    .main-text-box {
+        width: 100%;
+        height: 300px;
+    }
+
+    header { height: 400px; }
+
+    h1 { font-size: 150%; }
+
+    h2 { font-size: 140%; }
+    
+    h3 { font-size: 150%; }
+
+    section { padding: 25px 0; }
+
+    footer { padding: 20px; }
+
+    .footer-nav li,
+    .social-links li {
+    margin-right: 10px;
+}
 
 }
