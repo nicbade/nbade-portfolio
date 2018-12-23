@@ -140,7 +140,8 @@ header {
     cursor: pointer;
 }
 
-#menu {
+.fa-bars,
+.fa-times {
     font-size: 200%;
     color: #fff;    
 }

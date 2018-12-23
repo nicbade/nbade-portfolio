@@ -49,7 +49,7 @@
 
     #bioPic img { height: 140px; }
 
-    /* .main-nav { display: none; } */
+    .main-nav { display: none; }
 
     .mobile-nav-icon { display: inline-block; }
 
@@ -104,7 +104,7 @@
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0; }
     .sticky .mobile-nav-icon { margin-top: 10px; } 
-    .sticky #menu { color: #555; }
+    .sticky i { color: #555; }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
@@ -140,6 +140,5 @@
     .footer-nav li,
     .social-links li {
     margin-right: 10px;
-}
+    }
 
-}
