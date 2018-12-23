@@ -16,6 +16,8 @@ $(document).ready(function() {
         var icon = $('.js--nav-icon i');
         
         nav.slideToggle(200);
+
+        // change button icon on click
         if(icon.hasClass('fa-bars')) {
             icon.addClass('fa-times');
             icon.removeClass('fa-bars');
