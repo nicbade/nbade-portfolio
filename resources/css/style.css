@@ -30,7 +30,7 @@ body {
 }
 
 *:focus {
-    outline: 2px solid #20cf17; 
+    outline: 2px solid #636B7F; 
 }
 
 a.skip-main {
@@ -75,6 +75,12 @@ section {
     padding: 1%;
 }
 
+iframe {
+    width: 80%; 
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
 /* HEADER */
 
 header {
@@ -84,11 +90,12 @@ header {
     background-position: center;
     height: 100vh;
     background-attachment: fixed;
+    background-color: #52545C;
 }
 
 .main-text-box {
     position: absolute;
-    width: 1140px;
+    width: 1140px; 
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -129,7 +136,7 @@ header {
 
 .main-nav li a:hover,
 .main-nav li a:active {
-    border-bottom: 2px solid #20cf17;
+    border-bottom: 2px solid #636B7F;
 }
 
 /* MOBILE NAV */
@@ -198,7 +205,7 @@ h3:after,
 #cupping:after {
     display: block;
     height: 2px;
-    background-color: #20cf17;
+    background-color: #636B7F;
     content: " ";
     width: 100px;
     margin: 0 auto;
@@ -244,35 +251,35 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {
-    background-color: #20cf17;
-    border: 1px solid #20cf17;
-    color: #fff;
+    background-color: #F8D2BF;
+    border: 1px solid #F8D2BF;
+    color: #585F6F;
     margin-right: 15px;
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #20cf17;
-    color: #20cf17;
+    border: 1px solid #636B7F;
+    color: #636B7F;
 }
 
 .btn:hover,
 .btn:active,
 input[type=submit] {
-    background-color: #20cf1789;
+    background-color: #636B7F;
 }
 
 .btn-full:hover,
 .btn-full:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    background-color: #20cf1789;
-    border: 1px solid #20cf1789;
+    background-color: #636B7F;
+    border: 1px solid #636B7F;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #20cf17;
+    border: 1px solid #636B7F;
     color: #fff;
 }
 
@@ -280,7 +287,7 @@ input[type=submit]:active {
     height: 100px;
     width: auto;
     float: left;
-    border-radius: 50%;
+    border-radius: 5%;
     margin-right: 10px;
     margin-top: 0;
 }
