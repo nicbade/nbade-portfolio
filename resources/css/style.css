@@ -121,7 +121,8 @@ header {
 }
 
 .main-nav li a:link,
-.main-nav li a:visited {
+.main-nav li a:visited,
+{
     padding: 8px 0;
     color: #fff;
     text-decoration: none;
@@ -341,6 +342,12 @@ blockquote {
     margin-top: 10px;
     text-align: center;
     padding: 10px;
+}
+
+/* LINKS */
+
+.pdf {
+    text-align: center;
 }
 
 /* FOOTER */
