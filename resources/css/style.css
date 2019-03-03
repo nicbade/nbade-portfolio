@@ -165,6 +165,10 @@ header {
     z-index: 9999;
 }
 
+nav .row {
+    background-color: #ffffff;
+}
+
 .sticky .main-nav {margin-top: 40px;}
 
 .sticky .main-nav li a:link,
