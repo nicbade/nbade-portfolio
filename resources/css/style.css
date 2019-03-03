@@ -306,6 +306,10 @@ input[type=submit]:active {
     margin-bottom: 40px;
 }
 
+.research {
+    margin-top: 100px;
+}
+
 /* ABOUT ERIN */
 
 .section-staff {
@@ -427,11 +431,6 @@ footer p {
 .instagram:hover { color: #e95950; }
 
 /* RESEARCH PAGE */
-
-.research {
-    margin-top: 100px;
-}
-
 .research-links {
     list-style: none;
 }
@@ -457,6 +456,6 @@ footer p {
 
 .research-links li a:hover,
 .research-links li a:active,
-.research-links li a:focus {
+.research-links li:focus {
     border-bottom: 2px solid #F8D2BF;
 }

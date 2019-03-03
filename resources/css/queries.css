@@ -122,12 +122,16 @@
 
     #bio-text { margin-top: 5px; }
 
+    main {
+        background-color: #fff;
+    }
+
     .main-text-box {
         width: 100%;
         height: 250px;
     }
 
-    header { height: 200px; }
+    header { height: 400px; }
 
     h1 { font-size: 150%; }
 
@@ -143,7 +147,5 @@
     .social-links li {
     margin-right: 10px;
     }
-
-    .research { margin-top: 0px; }
 
 }
