@@ -125,10 +125,7 @@
         height: 250px;
     }
 
-    header { 
-        height: 400px;
-        background-color: #ffffff;
-    }
+    header { height: 400px; }
 
     h1 { font-size: 150%; }
 
