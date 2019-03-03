@@ -428,16 +428,12 @@ footer p {
 
 /* RESEARCH PAGE */
 
-header .research {
-    height: 50px;
-}
-
 .research-links {
     list-style: none;
 }
 
 .research-links li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
