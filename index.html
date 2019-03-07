@@ -22,16 +22,19 @@
         <div class="row">
           <a class="skip-main" href="#skip">Skip to main content</a>
           <!-- CHANGE TO ICON OR IMG WHEN YOU GET LOGO -->
-          <a href="#"><img class="logo nav-header" src="resources/css/img/circuit-acupuncture.png" alt="Circuit Acupuncture Home" /></a>
-          <ul class="main-nav js--main-nav">
+          <a href="#"><img class="logo nav-header" src="resources/css/img/circuit-acupuncture.png" alt="Circuit Acupuncture Home"/></a>
+          <ul class="main-nav js--main-nav" id="menu">
             <li><a href="#about-us">About Us</a></li>
             <li><a href="#vision">Vision</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="resources/research.html">Research</a></li>
             <li><a href="#scheduler">Schedule</a></li>
           </ul>
-          <a class="mobile-nav-icon js--nav-icon"><i class="fas fa-bars" aria-hidden="true" id="menu"></i><span class="sr-only">Open
-              Menu</span></a>
+          <a href="#" class="mobile-nav-icon js--nav-icon" aria-controls="menu"  aria-expanded="false">
+            <i class="fas fa-bars" aria-hidden="true" id="menu"></i>
+            <span class="sr-only">Open
+              Menu</span>
+          </a>
         </div>
       </nav>
     </div>

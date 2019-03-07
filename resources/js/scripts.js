@@ -1,14 +1,4 @@
 $(document).ready(function() {
-    // STICKY NAV AT ABOUT US
-    // $('.js--aboutUs').waypoint(function(direction) {
-    //     if(direction == "down") {
-    //         $('nav').addClass('sticky');
-    //     } else {
-    //         $('nav').removeClass('sticky');
-    //     }
-    // }, {
-    //     offset: '60px'
-    // })
 
     // MOBILE NAVIGATION
     $('.js--nav-icon').click(function() {
@@ -21,11 +11,16 @@ $(document).ready(function() {
         if(icon.hasClass('fa-bars')) {
             icon.addClass('fa-times');
             icon.removeClass('fa-bars');
+            
         } else {
             icon.addClass('fa-bars');
             icon.removeClass('fa-times');
         }
-        
+
+
+
     });
+
+
 
 });
