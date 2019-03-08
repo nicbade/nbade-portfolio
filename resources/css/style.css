@@ -365,7 +365,7 @@ footer {
 
 .footer-nav {
     list-style: none;
-    /* float: left; */
+    float: left;
 }
 
 .social-links {
